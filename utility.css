@@ -1,0 +1,240 @@
+@font-face {
+    font-family: proxima;
+    src: url(Proxima-Nova-Font/Proxima\ Nova\ Font.otf);
+}
+
+.proxima-font-family{
+    font-family: proxima;
+}
+
+.inline-felex{
+    display: inline-flex;
+}
+.jc-end{
+    justify-content: end;
+}
+.ai-end{
+    align-items: flex-end;
+}
+.font-weight-1{
+    font-weight: 600;
+}
+.font-size-1{
+    font-size: 0.9rem;
+}
+.text-decor{
+    text-decoration: none;
+    color: #000000;
+}
+
+.margin-lr{
+    margin: 0 15px;
+}
+
+/* margin top */
+.pt-1{
+    padding-top: 10px;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+
+@media (max-width:1115px) {
+    #nav-search{
+        width: 35%;
+    }
+    .toys , .sports{
+        display: none;
+    }
+    #Valentine-special-img{
+        display: none;
+    }
+    .valentine-day > img{
+        margin: 0 0.7%;
+    }
+    .valentine-day{
+        padding-left: 20px;
+    }
+}
+@media (max-width:1050px) {
+    #iphone-11{
+        display: none;
+    }
+    #sony-5-slim{
+        display: none;
+    }
+    #lacoste{
+        display: none;
+    }
+    #air-feryer{
+        display: none;
+    }
+}
+
+@media (max-width:992px) {
+    .nav-container-1{
+        height: 50px;
+        align-items: flex-end;
+    }
+    #nav-search{
+        width: 48%;
+    }
+    #deliver-option , .language-change , #flags-logo{
+        display: none;
+    }
+    .nav-container{
+        display: block;
+    }
+    .nav-container{
+        display: flex;
+    }
+    .baby , .toys , .sports{
+        display: none;
+    }
+}
+@media (max-width:893px) {
+    .beauty{
+        display: none;
+    }
+    .accesories{
+        margin: 0 12px;
+    }
+    .help-btn{
+        left: 77%;
+    }
+}
+@media (max-width:784px) {
+    #sony-play-station{
+        display: none;
+    }
+    #uhd-smart-tv{
+        display: none;
+    }
+    #benQ-zowie{
+        display: none;
+    }
+    #microwave{
+        display: none;
+    }
+}
+@media (max-width:767px) {
+    .nav-container{
+        height: 50px;
+    }
+    #disc-btn{
+        display: none;
+    }
+    #nav-search{
+        width: 35%;
+    }
+    .electronics , .toys , .sports{
+        display: none;
+    }
+    .accesories{
+        margin: 0 15px;
+    }
+}
+@media (max-width:600px) {
+    #nav-search{
+        width: 20%;
+        margin-left: 6px;
+    }
+    #nav-logo{
+        width: 60px;
+        margin-left: 0px;
+    }
+     .women , .toys , .sports , .beauty , .baby , .toys , .sports{
+        display: none;
+    }
+    #bakhoor-img{
+        display: none;
+    }
+    #hair-care{
+        display: none;
+    }
+    #handbags{
+        display: none;
+    }
+    #accesories{
+        display: none;
+    }
+    #dresses , #electronic-games , #budget-mobile , #budget-laptop{
+        display: none;
+    }
+    .help-btn{
+        left: 70%;
+    }
+}
+@media (max-width:737px) {
+    .footer-main-container{
+        display: none;
+    }
+    .footer-dorpdown-container{
+        display: inline;
+    }
+}
+@media (max-width:678px) {
+    #help-email-contact{
+        gap: 0px;
+    }
+}
+@media (max-width:520px) {
+    #iphone-11{
+        display: none;
+    }
+    #sony-play-station{
+        display: none;
+    }
+}
+@media (max-width:500px) {
+    #noon-gift-card{
+        display: none;
+    }
+}
+@media (max-width:451px) {
+    .accesories{
+        display: none;
+    }
+    .home{
+        display: block;
+    }
+    .help-btn{
+        left: 63%;
+    }
+}
+@media (max-width:330px) {
+    .accesories , .home {
+        display: none;
+    }
+    .help-btn{
+        left: 50%;
+    }
+}
+
+@media (max-width:700px) {
+    .shop-for-reason > h2{
+        font-size: small;
+        padding-left: 10px;
+    }
+    .in-focus > h2{
+        font-size: medium;
+        padding-left: 10px;
+    }
+    .in-focus > img{
+        margin: 5px 7px;
+        width: 90%;
+    }
+}
+@media (max-width:406px) {
+   .shop-for-reason > img{
+    width: 30%;
+   }
+   .shop-for-reason > h2{
+    font-size: 0.5rem;
+   }
+   #login-font , #whishlist-font , #cart-font{
+    display: none;
+   }
+}
